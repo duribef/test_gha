@@ -9,7 +9,7 @@ on:
 env:
   PROJECT_ID: fastapi-ddbb
   REGION: us-central1
-  GAR_LOCATION: us-central1-docker.pkg.dev/fastapi-ddbb/fastapi-repo/
+  GAR_LOCATION: us-central1-docker.pkg.dev/fastapi-ddbb/fastapi-repo
 
 jobs:
   build-push-artifact:
